@@ -3,8 +3,7 @@
     <main>
         <div class="main-wrapper">
             <section class="section-default">
-                <p class="login-status">You are logged out!</p>
-                <p class="login-status">You are logged in!</p>
+                <h1>SignUp</h1>
             </section>
         </div>
     </main>

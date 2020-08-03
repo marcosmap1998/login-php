@@ -87,15 +87,11 @@ button{
     border-radius: 10px;
 }
 
-main {
+.main-wrapper {
     margin-top: 15px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background: #fff;
-}
-
-main p{
-    width: 100%;
     text-align: center;
 }
