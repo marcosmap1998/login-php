@@ -25,7 +25,7 @@
             exit();
         }
         else if($password !== $password_repeat){
-            header("Location: ../signup.php?error=emptyfields&uid=".$username."&mail=",$email);
+            header("Location: ../signup.php?error=passwordcheck&uid=".$username."&mail=",$email);
             exit();
         }
         else{

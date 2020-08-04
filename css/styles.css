@@ -17,6 +17,7 @@ header{
     background-color: #fff;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .nav-header{
@@ -32,7 +33,7 @@ header{
 }
 
 .header-logo img{
-    width: 130px;
+    width: 100px;
 }
 
 ul{
@@ -57,10 +58,19 @@ a{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    overflow: hidden;
 }
 
-.header-login form{
-    margin: 0 15px;
+.header-login a{
+    margin-left: 15px;
+}
+
+.header-login a:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
 }
 
 .header-login form input{
@@ -130,4 +140,20 @@ button{
     background: #f2f2f2;
     color: #000;
     border: 2px solid #000;
+}
+
+.signuperror{
+    color: red;
+}
+
+.signupsuccess{
+    color: green;
+}
+
+.form2{
+    margin-right: 35px;
+}
+
+.btn-signup{
+    margin-right: 30px;
 }
