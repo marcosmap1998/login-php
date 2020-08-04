@@ -9,7 +9,7 @@
                     <input type="text" name="mail" placeholder="Email">
                     <input type="password" name="pwd" placeholder="Password">
                     <input type="password" name="pwd-2" placeholder="Repeat password">
-                    <button type="submit" name="submit-singup">Sing up</button>
+                    <button type="submit" name="submit-singup" style="cursor:pointer">Sing up</button>
                 </form>
             </section>
         </div>
